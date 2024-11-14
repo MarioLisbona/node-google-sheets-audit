@@ -1,5 +1,8 @@
 import dotenv from "dotenv";
-import { processTestingSheet, updateRfiSpreadsheet } from "./lib/utils.js";
+import {
+  processTestingSheet,
+  updateRfiSpreadsheet,
+} from "./lib/sheetProcessing.js";
 
 dotenv.config(); // Load environment variables
 
